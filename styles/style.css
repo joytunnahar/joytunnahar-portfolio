@@ -167,3 +167,34 @@ hr{
     margin-top: 70px;
     text-align: center;
 }
+/* contact style */
+.contact{
+    display: flex;
+   gap: 50px;
+   padding: 130px 230px;
+    background-color: #FFF8F3;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.contact-info{
+    width: 50%;
+}
+.contact-title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.contact-description{
+    color: #474747;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.contact-info img{
+    margin: 10px;
+}
+.contact input, textarea{
+    width: 100%;
+   
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 0;
+}
