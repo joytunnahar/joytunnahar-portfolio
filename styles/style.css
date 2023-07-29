@@ -91,6 +91,7 @@ main {
 }
 .section-title{
 margin-bottom: 30px;
+
 }
 .section-description{
     color: #757575;
@@ -102,7 +103,10 @@ margin-bottom: 30px;
     justify-content: space-around;
 }
 /* my skills section */
-.My-skills{
+/* section{
+    margin: 200px auto;
+} */
+.My-skills , .resume-container{
     text-align: center;
     padding: 130px 150px;
 }
@@ -126,4 +130,40 @@ margin-bottom: 30px;
 .card-description{
     font-size: 16px;
     color: #757575;
+}
+/* resume style */
+.resume{
+    display: flex;
+    gap: 25px;
+    text-align: start;
+}
+.resume-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.item-title{
+    color: #474747;
+    margin: 110px 0 30px;
+    font-size: 30px;
+}
+.title{
+    font-size: 25px;
+    color: #474747;
+}
+.sub-title{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.description{
+    color: #757575;
+    font-size: 16px;
+
+}
+hr{
+    margin: 30px 0;
+}
+.download-btn{
+    margin-top: 70px;
+    text-align: center;
 }
